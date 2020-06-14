@@ -8,7 +8,7 @@ Use `Invoke-RestMethod` to hit the endpoints in the other tab.
 
 ![gif](./media/qotdPSMicroservice.gif)
 
-## Docker
+## Run it in Docker
 
 ```powershell
 docker build --tag qotd:1.0 .
