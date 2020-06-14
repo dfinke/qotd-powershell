@@ -1,0 +1,7 @@
+FROM mcr.microsoft.com/powershell:latest
+
+COPY . /usr/src/app/
+
+RUN pwsh -c 'Install-Module Pode -force'
+EXPOSE 8081
+CMD [ "pwsh", "-c", "cd /usr/src/app; ./qotd.ps1" ]
