@@ -1,0 +1,8 @@
+# qotd powershell microservice
+
+Invoke-Restmethod http://localhost:8081/
+Invoke-Restmethod http://localhost:8081/writtenin
+Invoke-Restmethod http://localhost:8081/version
+Invoke-Restmethod http://localhost:8081/quotes
+Invoke-Restmethod http://localhost:8081/quotes/2
+Invoke-Restmethod http://localhost:8081/quotes/random
